@@ -49,7 +49,7 @@ let array = [
 ];
 
 const medalTable = document.createElement("table");
-medalTable.innerHTML = "<thead><th>Rank</th><th>Player</th><th>Score</th><th>Silver</th><th>Bronze</th></thead>";
+medalTable.innerHTML = "<thead><th>Rank</th><th>Country</th><th>Gold</th><th>Silver</th><th>Bronze</th></thead>";
 for(display of array){
     const newRow = document.createElement("tr");
     const rank = document.createElement("td");
